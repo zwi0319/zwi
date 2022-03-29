@@ -1,0 +1,137 @@
+/* 背景 */
+.sec4 {
+    background: linear-gradient(to right top, #ffe0cc, #ff9f60);
+    min-height: 100vh;
+    background-size: 100%;
+}
+/* 小圆点 */
+.sec4_circle1 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 113, 191, 0.8),
+        rgba(230, 255, 253, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    bottom: 30%;
+    left: 10%;
+    transform: rotate(66deg);
+}
+.sec4_circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(208, 252, 228, 0.8),
+        rgba(255, 225, 225, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    top: 20%;
+    right: 10%;
+    transform: rotate(33deg);
+}
+.sec4_circle3 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 225, 225, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    bottom: 5%;
+    right: 40%;
+    transform: rotate(99deg);
+}
+/* 主体部分 */
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4_main_box {
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    backdrop-filter: blur(0.2rem);
+}
+/* ------------------------------------- */
+#sec4_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec4_title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 60, 141);
+    margin-top: 50px;
+}
+.sec4_search {
+    width: 500px;
+    height: 40px;
+    margin: 50px auto 0;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sec4_input {
+    flex: 8;
+    padding-left: 10px;
+}
+.sec4_button {
+    flex: 2;
+    background-color: rgb(255, 60, 141);
+    color: #fff;
+    font-size: 20px;
+}
+.sec4_select {
+    display: flex;
+    width: 500px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.sec4_select a {
+    flex: 1;
+    font-size: 18px;
+}
+.sec4_select a:hover {
+    color: rgb(255, 60, 141);
+}
+.sec4_ul {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+.sec4_li {
+    flex: 1;
+    background-color: rgba(204, 204, 204, 0.2);
+    border-radius: 20px;
+    margin: 0 5px;
+}
+.sec4_weather .tianqi {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 143, 38);
+    margin-top: 30px;
+}
+.sec4_weather .qiwen {
+    font-size: 20px;
+    color: skyblue;
+    margin-top: 20px;
+}
+.sec4_weather .date {
+    font-size: 16px;
+    color: tomato;
+    margin: 10px 0;
+}

@@ -1,0 +1,20 @@
+.sec3 {
+    background: linear-gradient(
+        to right top,
+        rgb(208, 249, 255),
+        rgb(94, 236, 255)
+    );
+    min-height: 100vh;
+    background-size: 100%;
+}
+.sec3 .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 .slide img {
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: 0 1px 40px -10px #000;
+}

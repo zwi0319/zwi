@@ -1,0 +1,131 @@
+/* 背景 */
+.sec2 {
+    background: linear-gradient(to right top, rgb(255, 214, 224), rgb(255, 162, 184));
+    min-height: 100vh;
+    background-size: 100%;
+}
+/* 小圆点 */
+.sec2_circle1 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(203, 255, 255, 0.8),
+        rgba(237, 255, 254, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 10%;
+    bottom: 30%;
+    left: 20%;
+}
+.sec2_circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(206, 255, 228, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 10%;
+    top: 30%;
+    right: 10%;
+    transform: rotate(45deg);
+}
+.sec2_circle3 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 225, 225, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 10%;
+    bottom: -5%;
+    right: 40%;
+}
+/* 主体部分 */
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2_main {
+    width: 1200px;
+    height: 600px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    backdrop-filter: blur(0.2rem);
+}
+.sec2_main_head ul {
+    width: 1200px;
+}
+.sec2_main_head ul li {
+    float: left;
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    transition: all 1s;
+}
+.sec2_main_head ul li a {
+    display: block;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #426696;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.sec2_main_head ul li a:hover {
+    background-color: rgb(255, 211, 221);
+    color: rgb(255, 111, 145);
+}
+.current1 {
+    background-color: rgb(255, 111, 145);
+}
+/*  */
+.sec2_main_body_content {
+    float: left;
+    width: 1200px;
+    height: 500px;
+}
+/* sec2_main_body */
+.sec2_main_body_content_left {
+    float: left;
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.sec2_main_body_content_left p {
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    color: #426696;
+    padding-left: 30px;
+}
+.sec2_main_body_content_right {
+    float: right;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2_main_body_content_right img {
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    transition: all 1s;
+}
+/* 个人图片 */

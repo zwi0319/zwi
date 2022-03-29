@@ -1,0 +1,257 @@
+/* -------背景圆点------ */
+.sec1_circle1 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 5%;
+    right: 15%;
+}
+.sec1_circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(247, 255, 174, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 5%;
+}
+.sec1_circle3 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(248, 202, 202, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -10%;
+    right: 35%;
+}
+
+/* 第一栏 nav区域*/
+.sec1 {
+    background: linear-gradient(to right top, #c0fff2, #48f1d5);
+    min-height: 100vh;
+    background-size: 100%;
+}
+.sec1 nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.sec1 nav ul {
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+}
+.sec1 nav ul li {
+    flex: 1;
+    height: 60px;
+}
+.local_home a {
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+.local_home a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 3px solid #426696;
+}
+.local_hd {
+    font-size: 16px;
+    font-family: "幼圆";
+    font-weight: 400;
+}
+.local_bd {
+    font-size: 14px;
+    font-family: "幼圆";
+    font-weight: 400;
+}
+/* 内容区域 */
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 600px;
+    border-radius: 25px;
+    background-image: linear-gradient(45deg, rgba(163, 255, 231, 0.6), rgba(255, 193, 179, 0.6));
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    overflow: hidden;
+    backdrop-filter: blur(0.2rem);
+}
+.main_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+.main_left div {
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+.myPhoto {
+    flex: 3;
+    width: 100%;
+    padding: 15px auto;
+    text-align: center;
+}
+.myPhoto a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    color: #426696;
+    font-size: 16px;
+}
+.myPhoto img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px auto;
+}
+.myPhoto p {
+    margin: 10px auto;
+}
+.main_left div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    color: #426696;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main_left div:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+.main_left div:hover a {
+    color: #000;
+}
+.main_left div:nth-child(2) a p::before {
+    content: "\e608";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #2867ce;
+}
+.main_left div:nth-child(3) a p::before {
+    content: "\e60d";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #ffbd27;
+}
+.main_left div:nth-child(4) a p::before {
+    content: "\e614";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #4fffff;
+}
+.main_left div:nth-child(5) a p::before {
+    content: "\e600";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #f44336;
+}
+.main_left div:nth-child(6) a p::before {
+    content: "\e665";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #09bb07;
+}
+.main_left div:nth-child(7) a p::before {
+    content: "\e67c";
+    font-family: "iconfont";
+    font-size: 30px;
+    margin-right: 20px;
+    color: #93a8ff;
+}
+/* ------------------------------------------------------ */
+.main_right {
+    flex: 7;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0 25px 25px 0;
+    overflow: hidden;
+}
+.content {
+    float: right;
+    width: 98%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.content img {
+    width: 640px;
+    height: 360px;
+    border-radius: 25px;
+    /* background-size: 50%; */
+    margin: 40px auto;
+}
+.content p {
+    color: #426696;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px auto 0;
+}
+.main_right div:nth-child(1) p {
+    color: #426696;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px auto 0;
+}
+.main_right div:nth-child(1) img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 80px auto;
+}
+.current {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+    /* 添加过度效果 */
+    transition: all 0.5s;
+}
